@@ -1,0 +1,5 @@
+N = int(input('Введите количество чисел:'))
+nums = list(map(int, input('Введите числа через пробел:').split()))
+a = set(nums)
+b = len(a)
+print(f'Введено {b} различных чисел')
